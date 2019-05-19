@@ -23,4 +23,5 @@ nodejs_port=3000
 4. Done
 
 ### Note
-> v-change-web-domain-proxy-tpl is VestaCP cli executed when VestaCP rebuild web proxy
+- v-change-web-domain-proxy-tpl is VestaCP cli executed when VestaCP rebuild web proxy
+- if VestaCP is updated (i.e. yum update), perhaps v-change-web-domain-proxy-tpl will be reverted to default one provided by Vesta, I can't confirm it yet but in case this happen you need to replace it again
