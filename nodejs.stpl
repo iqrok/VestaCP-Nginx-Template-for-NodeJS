@@ -6,7 +6,7 @@ server {
     error_log  /var/log/httpd/domains/%domain%.error.log error;
 
     location / {
-        proxy_pass      https://localhost:%nodejs_web_ssl_port%;
+        proxy_pass      https://localhost:%web_ssl_port%;
     }
 
     location /error/ {
