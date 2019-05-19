@@ -9,7 +9,9 @@ Create custom template for NodeJS Application when using Nginx as reverse proxy 
 ```bash
 nodejs_port={PORT}
 ```
-5. run __/usr/local/vesta/bin/v-change-web-domain-proxy-tpl__
+5. Copy __nodejs.tpl__ and __nodejs.stpl__ into __/usr/local/vesta/data/templates/web/nginx/__
+6. run __/usr/local/vesta/bin/v-change-web-domain-proxy-tpl USER DOMAIN TEMPLATES__ 
+7. or simply update domain proxy templates from VestaCP GUI and click SAVE 
 
 ### Example in my case
 1. My domain is __cadaver.vm__ , my Port is __3000__ , and my username is __admin__
